@@ -42,6 +42,7 @@ public class BaseClass1 {
 	public void tearDownBrowser() {
 		driver.quit();
 		Reporter.log("Browser is closed",true);
+		System.out.println("Test the code");
 	}
 	
 	@BeforeMethod
